@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <input type="radio" id="male" value="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" value="female" name = gender checked>
+            <label for="female">Female</label>
+       </div>
+       <div>
+            <input type="checkbox" value = "bike" id = "bicycle">
+            <label for="bicycle">Bicycle</label>
+            <input type="checkbox" id = "motorcycle" value = "motorcycle" checked>
+            <label for="motorcycle">Motorcycle</label>
+            <input type="checkbox" value = "car" id = "car">
+            <label for="car">Car</label>
+       </div>
+        <div>
+            <label for="nationality">Nationality</label>
+            <select id="nationality">
+                <option value="" disabled selected hidden>Choose nationality</option>
+                <option value="greek">Greece</option>
+                <option value="italian">Italy</option>
+                <option value="spanish">Spain</option>
+            </select>
+        </div>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <div>
+                <label for="firstname">Firstname:</label>
+                <input type="text" id="firstname" placeholder="Give name" required minlength="3" maxlength="20">
+            </div>
+            <div>
+                <label for="lastname">Lastname:</label>
+                <input type="text" id="lastname" placeholder="Give lastname" required>
+            </div>
+            <div>
+                <label for="experience">Work experience:</label>
+                <input type="number" id="experience">
+            </div>
+    </fieldset>
+        <div>
+            <label for="birthday">Date of birth:</label>
+            <input type="date" id="birthday">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+        </div>
+        <div>
+            <input type="submit" value = "Submit">
+            <input type="reset" value="Reset">
+        </div>
+    </form>
+</body>
+</html>

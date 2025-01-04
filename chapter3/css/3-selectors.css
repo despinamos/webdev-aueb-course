@@ -1,0 +1,23 @@
+/* vriskei ola ta elements pou exoun id*/
+h2[id], p[id] {
+    background-color: aquamarine;
+}
+
+a[href="#"] {
+    background-color: violet;
+}
+
+/* tha vrei ola ta elements pou exoun mesa kapoio class kai ksekinaei (^) me ti leksi info */
+*[class^="info"] {
+ color: green
+}
+
+/* symbol * contains "text" */
+*[class*="text"] {
+    background-color: burlywood;
+}
+
+/* symbol $ ends with "text" */
+h2[class$="title"] {
+    font-style: italic;
+}

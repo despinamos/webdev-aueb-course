@@ -1,0 +1,38 @@
+div[class^=grid]{
+    border: 1px solid black;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,100px);
+}
+/* .grid-item1 {
+    background-color: green;
+    grid-column-start: 1;
+    grid-column-end: 3;
+} */
+
+.grid-item1 {
+    background-color: green;
+    grid-column: 1/4;
+}
+
+.grid-item2 {
+    background-color: lightblue;
+}
+
+.grid-item3 {
+    background-color: aqua;
+}
+
+.grid-item4 {
+    background-color: lightcyan;
+}
+
+.grid-item5{
+    background-color: lightgray;
+}
+
+.grid-item6{
+    background-color: brown;
+}

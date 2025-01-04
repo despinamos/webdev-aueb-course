@@ -1,0 +1,73 @@
+body {
+    background-color: lightpink;
+}
+
+h1 {
+    color: rgb(81, 0, 255);
+    background-color: rgb(255, 0, 157);
+}
+
+p, li{
+    color:antiquewhite;
+    background-color: rgb(243, 152, 251);
+}
+
+.cat-logo {
+    width: 150px;
+    color: peachpuff;
+    background-color: lightsalmon
+}
+
+img.cat-logo {
+    height: auto;
+    border: 2px solid lightseagreen
+}
+
+.aueb-text {
+    color: rgb(255, 255, 162);
+    background-color: rgb(255, 129, 129);
+}
+
+#auebText {
+    color: black;
+    background-color: orange;
+}
+
+ul > li {
+    color: darkcyan
+}
+
+ul strong {
+    background-color:rgb(103, 11, 77)
+}
+
+ul em {
+    background-color:rgb(37, 11, 94)
+}
+
+h1 + p {
+    background-color:rgb(234, 0, 255);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: rgb(167, 55, 212);
+}
+
+a:focused {
+    outline: none;
+    background-color: yellow;
+}
+
+a:hover {
+    background-color: green;
+}
+a:active {
+    background-color: chocolate;
+    color: white;
+}
+
+/* LoVeHateFeAr */

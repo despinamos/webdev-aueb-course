@@ -1,0 +1,30 @@
+p {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+.cf-text {
+    color: green;
+}
+
+p {
+    color: yellow;
+}
+
+#cfText {
+    color: aqua;
+}
+
+p {
+    color: yellow!important;
+}
+/* the last modification is always used for an element, except when there is a class. class modification has priority over the others even if they come after it */
+
+/* id is higher in hierarchy compared to class and element, so it is modified according to that even if there is a class modification */
+
+/*when there is style inside the element in the html file, it is mofified accourding to that*/
+
+/* hierarchy -> style in html element -> id -> class -> css element */
